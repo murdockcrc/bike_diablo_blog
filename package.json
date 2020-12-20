@@ -26,7 +26,7 @@
     "components"
   ],
   "scripts": {
-    "docs:build": "vuepress build",
+    "docs:build": "vuepress build docs --temp docs/.temp",
     "docs:dev": "vuepress dev docs --temp docs/.temp",
     "build": "vuepress build docs",
     "dev": "vuepress dev docs",
